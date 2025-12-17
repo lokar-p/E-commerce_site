@@ -4,7 +4,7 @@ import { products } from "@/data/products";
 
 export default function FeaturedProduct() {
     return (
-        <section className="flex flex-col sm:flex-row justify-between items-center  max-w-6xl mx-auto  px-4 py-8 border-b border-borderLight">
+        <section className="flex flex-col sm:flex-row justify-between items-center  max-w-6xl mx-auto  px-4 py-8 ">
             <Image src={products[0].image} alt={products[0].name} width={894} height={824} className="flex m-10 w-[400px]"/>
             <article className="max-w-2xl h-[100%] flex-1 max-w-lg">
                 <h2 className="text-2xl font-bold mb-4">{products[0].name}</h2>

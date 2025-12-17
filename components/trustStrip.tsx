@@ -3,7 +3,7 @@ import InfoCard from "./infoCard"
 export default function TrustStrip(){
     return(
         <div>
-            <ul className="grid grid-cols-2 gap-10 sm:grid-cols-4 max-w-6xl mx-10 text-center py-8 px-4 gap-4 border-b border-borderLight mb-8">
+            <ul className="grid grid-cols-2 gap-10 sm:grid-cols-4 max-w-6xl mx-5 text-center py-8 px-4 gap-4 border-b border-borderLight mb-8">
                 <li>
                     
                     <InfoCard title="" description="Fast prep" icon="ri:timer-flash-line" />

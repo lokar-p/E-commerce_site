@@ -3,7 +3,7 @@ import InfoCard from "./infoCard";
 
 export default function HowToUseIt() {
     return (
-        <section className="max-w-6xl mx-10 px-4 py-8">  
+        <section className="max-w-lg sm:max-w-6xl mx-auto px-4 py-8">  
             <h2 className="text-2xl font-bold mb-4 text-center">How to Use It</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <InfoCard

@@ -1,7 +1,8 @@
 import Hero from "@/components/hero";
 import TrustStrip from "@/components/trustStrip";
 import FeaturedProduct from "@/components/feturedProduct";
-import WhyCookEase from "@/components/why_cook_Ease/whyCookEase";
+import WhyCookEase from "@/components/whyCookEase";
+import HowToUseIt from "@/components/howToUseIt";
 export default function Home() {
   return (
    <main>
@@ -9,6 +10,7 @@ export default function Home() {
     <TrustStrip />
     <FeaturedProduct />
     <WhyCookEase />
+    <HowToUseIt />
    </main>
   );
 }

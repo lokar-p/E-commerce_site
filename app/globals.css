@@ -12,6 +12,7 @@
   --color-textMain: #1F2937;
   --color-textMuted: #6B7280;
   --color-borderLight: #E5E7EB;
+  --color-accentShadow : #f29b055d;
 
 }
 
@@ -24,7 +25,7 @@ body {
   
 }
 .test{
-  color : #F97316;
+  color : #f29b054d;
 }
 
 .carvedLine{
